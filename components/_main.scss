@@ -1,0 +1,215 @@
+@import '../base/colores';
+@import '../base/mixins';
+@import '../base/extends';
+
+/*ACA EMPIEZA EL MAIN DE ESTILOS.HTML*/
+
+.mainestilos {
+
+    background-color:nth($colores, 2);
+
+    .divtitulo {
+
+        background-color:nth($colores, 1);
+        padding: 60px;
+
+    h2 {
+
+        margin-left: 140px;
+        color:wheat;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 4rem;
+        font-style: italic;
+       }
+      }
+
+    .redes {
+
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+     
+
+     li {
+
+        list-style: none;
+        
+
+     a  {
+
+        display: inline-block;
+
+     
+     .iconos {
+
+      margin: 0;  
+      font-size: 2rem;
+      background-color: nth($colores, 4);
+      border-radius: 5px;
+      padding: 1rem;
+      color: wheat;
+
+      @media screen and (max-width: 1200px) {
+        
+        font-size: 1rem;
+      }
+
+
+
+    }
+   }   
+  }
+ }
+ .redes li a .iconos:hover {
+
+    background-color: black;
+}   
+
+
+    .imagencafe {
+
+        width: 900px;
+        height: 580px;
+        border-radius: 5px;
+    }
+
+    .writtenby li {
+
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    p {
+
+        font-size: 1.5rem;
+        
+    }
+    
+    i {
+
+        margin-right: 5px;
+        float: left;
+        font-size: 20px;
+    
+    }
+
+    .sidebar {
+
+       @media screen and (max-width: 960px) {
+
+       display:  none;
+
+       }
+
+
+    
+        
+
+    ul li {
+
+        list-style: none;
+        line-height: 40px;
+        margin: 15px;
+
+    a {
+        
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+        font-style: italic;
+        font-weight: bold;
+
+
+       }    
+      }    
+    }
+   } 
+
+
+
+/*ACA TERMINA EL MAIN DE ESTILOS.HTML*/
+
+/*ACA EMPIEZA EL MAIN DE HISTORIA.HTML*/
+
+.mainhistoria {
+
+    background-color: wheat;
+
+
+   .divtitulo {
+
+
+    padding: 60px;
+    background-color:nth($colores, 1);
+  
+
+
+    h2 {
+
+    margin-left: 140px;    
+    color: wheat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 4rem;
+    font-style: italic;
+     }
+   }
+   p {
+
+    font-size: 1.5rem;
+    margin-top: 40px;
+
+
+   img {
+
+    float: left;
+    display: block;
+    margin-right: 15px;
+    border-radius: 20px;
+
+
+   }
+  }    
+ }
+
+/*ACA TERMINA EL MAIN DE HISTORIA.HTML*/
+
+/*ACA EMPIEZA EL MAIN DE CONTACTO.HTML*/
+
+.maincontacto {
+
+    background-color:nth($colores, 2);
+
+
+    .divcontact {
+    
+        margin-top: 30px;
+       
+
+    
+    p {
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        line-height: 40px;
+
+    }
+    .imgnfix {
+
+       margin-top: 27px;
+    }
+  }
+}
+ 
+/*ACA TERMINA EL MAIN DE CONTACTO.HTML*/
+
+
+
+
+
+

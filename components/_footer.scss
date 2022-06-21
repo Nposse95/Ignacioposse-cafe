@@ -1,0 +1,41 @@
+@import '../base/colores';
+@import '../base/extends';
+
+
+footer {
+
+     @include fondodiv (wheat, 100%, 300px)
+     @extend %padding;
+
+  
+    div .footerdiv ul div .link {
+
+        text-decoration: none;
+        color: black;
+
+
+    }
+
+    .segundodiv {
+
+        @media screen and (max-width: 960px) {
+            display:none;
+        }
+    }
+
+    .footer-title {
+
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+
+    div ul li {
+
+        list-style: none;
+        line-height: 2.5;
+
+    }
+
+}
+

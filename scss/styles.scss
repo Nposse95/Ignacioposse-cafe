@@ -1,0 +1,37 @@
+@import '../base/colores';
+@import '../base/mixins';
+@import '../base/extends';
+@import '../components/header';
+@import '../components/section';
+@import '../components/footer';
+@import '../components/main';
+
+* {
+
+    margin: 0px ;
+    
+}
+
+
+body {
+    
+    background-image: url(../imagenes/fondomate.jpg);
+}
+
+.arribadeto {
+
+    padding: 1rem;
+    background-color:nth($colores, 2);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+    }
+
+     span {
+
+    margin-left: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}    
+

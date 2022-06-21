@@ -1,0 +1,63 @@
+@import '../base/colores';
+@import '../base/mixins';
+@import '../base/extends';
+
+$verde:rgb(9, 60, 60);
+
+header {
+    
+    @extend %padding;
+    background:rgba(0, 0, 0, 0.7) url(../imagenes/headercoffee.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+
+    .cafe {
+    
+        font-size: 3rem;
+        color:nth($colores, 2);
+        margin-left:0px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    nav ul {
+
+        @include horizontal (3rem, flex, space-around)
+        font-weight: bold;
+    
+    
+    li {
+        
+        list-style: none;
+        display: flex;
+        justify-content: center;
+       
+        
+    .enlaces {
+
+        color:nth($colores, 2);
+        font-size: 2.2rem;
+        text-decoration: none;
+        padding: 1rem;
+        
+        @media screen and (max-width: 960px) {
+            
+            padding: 1.5rem;
+            margin: 10px;
+        }
+    }
+   }
+  }         
+} 
+
+    .enlaces:hover {
+
+        background-color: rgba(165, 146, 39, 0.725);
+        border-radius: 40px;
+    }
+
+        
+
+    

@@ -1,0 +1,290 @@
+header, .secc2, .historia, footer {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+header, .secc2, .historia, footer {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+header {
+  background: rgba(0, 0, 0, 0.7) url(../imagenes/headercoffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken; }
+  header .cafe {
+    font-size: 3rem;
+    color: wheat;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center; }
+  header nav ul {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold; }
+    header nav ul li {
+      list-style: none;
+      display: flex;
+      justify-content: center; }
+      header nav ul li .enlaces {
+        color: wheat;
+        font-size: 2.2rem;
+        text-decoration: none;
+        padding: 1rem; }
+        @media screen and (max-width: 960px) {
+          header nav ul li .enlaces {
+            padding: 1.5rem;
+            margin: 10px; } }
+
+.enlaces:hover {
+  background-color: rgba(165, 146, 39, 0.725);
+  border-radius: 40px; }
+
+header, .secc2, .historia, footer {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*ACA EMPIEZAN LAS SECCIONES DE INDEX.HTML*/
+.barracarousel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: wheat; }
+  @media screen and (max-width: 960px) {
+    .barracarousel {
+      display: none; } }
+
+.barracarousel div:nth-child(1) {
+  background-color: teal;
+  width: 100%;
+  height: 100%; }
+
+.barracarousel div:nth-child(2) {
+  background-color: #004d4d;
+  width: 100%;
+  height: 100%; }
+
+.barracarousel div:nth-child(3) {
+  background-color: #003434;
+  width: 100%;
+  height: 100%; }
+
+.item1, .item2, .item3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+  .item1 p, .item2 p, .item3 p {
+    margin-top: 5px;
+    font-size: .9rem;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center; }
+
+.secc2 {
+  background-color: wheat;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  border: 20px solid wheat; }
+  .secc2 div {
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.8); }
+    .secc2 div img {
+      height: 100%;
+      width: 100%;
+      transition: 2s;
+      border-radius: 5px; }
+
+.secc2 div img:hover {
+  transform: scale(1.1);
+  cursor: pointer; }
+
+.historia {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2px;
+  background-color: #093c3c;
+  border: 10px solid #093c3c; }
+  @media screen and (max-width: 960px) {
+    .historia {
+      display: none; } }
+  .historia .videocosecha {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px; }
+  .historia .segundodiv p {
+    font-size: 2.2rem;
+    color: wheat;
+    margin: 10px; }
+
+/*ACA TERMINAN LAS SECCIONES DE INDEX.HTML*/
+/*EMPIEZA LA SECCION DE ESTILOS.HTML*/
+.seccionestilos {
+  background-color: #093c3c; }
+  @media screen and (max-width: 960px) {
+    .seccionestilos {
+      display: none; } }
+  .seccionestilos .divdistintoscafes {
+    background-color: wheat;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 550px; }
+    .seccionestilos .divdistintoscafes h3 {
+      margin-left: 5px; }
+    .seccionestilos .divdistintoscafes .imgdistintoscafes {
+      border-radius: 5px;
+      height: 350px;
+      width: 100%; }
+
+/*TERMINAN LAS SECCIONES DE ESTILOS.HTML*/
+header, .secc2, .historia, footer {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+footer {
+  background-color: wheat;
+  width: 100%;
+  height: 300px; }
+  footer div .footerdiv ul div .link {
+    text-decoration: none;
+    color: black; }
+  @media screen and (max-width: 960px) {
+    footer .segundodiv {
+      display: none; } }
+  footer .footer-title {
+    font-size: 1.5rem;
+    font-weight: bold; }
+  footer div ul li {
+    list-style: none;
+    line-height: 2.5; }
+
+header, .secc2, .historia, footer {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*ACA EMPIEZA EL MAIN DE ESTILOS.HTML*/
+.mainestilos {
+  background-color: wheat; }
+  .mainestilos .divtitulo {
+    background-color: rgba(0, 0, 0, 0.876);
+    padding: 60px; }
+    .mainestilos .divtitulo h2 {
+      margin-left: 140px;
+      color: wheat;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 4rem;
+      font-style: italic; }
+  .mainestilos .redes {
+    padding: 50px;
+    display: flex;
+    justify-content: center; }
+    .mainestilos .redes li {
+      list-style: none; }
+      .mainestilos .redes li a {
+        display: inline-block; }
+        .mainestilos .redes li a .iconos {
+          margin: 0;
+          font-size: 2rem;
+          background-color: #d41010;
+          border-radius: 5px;
+          padding: 1rem;
+          color: wheat; }
+          @media screen and (max-width: 1200px) {
+            .mainestilos .redes li a .iconos {
+              font-size: 1rem; } }
+  .mainestilos .redes li a .iconos:hover {
+    background-color: black; }
+  .mainestilos .imagencafe {
+    width: 900px;
+    height: 580px;
+    border-radius: 5px; }
+  .mainestilos .writtenby li {
+    list-style: none;
+    margin-top: 20px; }
+  .mainestilos p {
+    font-size: 1.5rem; }
+  .mainestilos i {
+    margin-right: 5px;
+    float: left;
+    font-size: 20px; }
+  @media screen and (max-width: 960px) {
+    .mainestilos .sidebar {
+      display: none; } }
+  .mainestilos .sidebar ul li {
+    list-style: none;
+    line-height: 40px;
+    margin: 15px; }
+    .mainestilos .sidebar ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+      font-style: italic;
+      font-weight: bold; }
+
+/*ACA TERMINA EL MAIN DE ESTILOS.HTML*/
+/*ACA EMPIEZA EL MAIN DE HISTORIA.HTML*/
+.mainhistoria {
+  background-color: wheat; }
+  .mainhistoria .divtitulo {
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.876); }
+    .mainhistoria .divtitulo h2 {
+      margin-left: 140px;
+      color: wheat;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 4rem;
+      font-style: italic; }
+  .mainhistoria p {
+    font-size: 1.5rem;
+    margin-top: 40px; }
+    .mainhistoria p img {
+      float: left;
+      display: block;
+      margin-right: 15px;
+      border-radius: 20px; }
+
+/*ACA TERMINA EL MAIN DE HISTORIA.HTML*/
+/*ACA EMPIEZA EL MAIN DE CONTACTO.HTML*/
+.maincontacto {
+  background-color: wheat; }
+  .maincontacto .divcontact {
+    margin-top: 30px; }
+    .maincontacto .divcontact p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 25px;
+      line-height: 40px; }
+    .maincontacto .divcontact .imgnfix {
+      margin-top: 27px; }
+
+/*ACA TERMINA EL MAIN DE CONTACTO.HTML*/
+* {
+  margin: 0px; }
+
+body {
+  background-image: url(../imagenes/fondomate.jpg); }
+
+.arribadeto {
+  padding: 1rem;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  cursor: pointer; }
+
+span {
+  margin-left: 10px;
+  font-size: 1.8rem;
+  font-weight: bold; }

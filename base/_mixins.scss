@@ -1,0 +1,17 @@
+
+//MIXINS
+
+@mixin horizontal ($relleno,$display,$alineacion) {
+  padding: $relleno;
+  display:$display;
+  justify-content:$alineacion; 
+}
+
+@mixin fondodiv ($color, $ancho, $altura) {
+
+  background-color: $color;
+  width: $ancho;
+  height: $altura;
+
+}
+

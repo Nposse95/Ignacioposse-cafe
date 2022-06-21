@@ -1,0 +1,158 @@
+@import '../base/colores';
+@import '../base/mixins';
+@import '../base/extends';
+
+/*ACA EMPIEZAN LAS SECCIONES DE INDEX.HTML*/
+
+.barracarousel {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color:nth($colores, 2);
+
+        @media screen and (max-width: 960px) {
+            display: none;
+        }
+    }
+
+.barracarousel div:nth-child(1) {
+
+    @include fondodiv (teal, 100%, 100%);
+}
+.barracarousel div:nth-child(2) {
+
+    @include fondodiv (#004d4d, 100%, 100%);
+}
+.barracarousel div:nth-child(3) {
+
+    @include fondodiv (#003434, 100%, 100%);
+}
+
+.item1, .item2, .item3 {
+
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+
+    p {
+
+        margin-top: 5px;
+        font-size: .9rem;
+        color: black;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        
+
+    }
+}
+
+.secc2 {
+    
+    background-color:nth($colores, 2);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    border: 20px solid wheat; 
+    @extend %padding;
+
+    div {
+
+        
+        box-shadow: 1px 10px 15px rgba(0,0,0,0.80);
+     
+    img {
+
+        height: 100%;
+        width: 100%;
+        transition: 2s;
+        border-radius: 5px;
+        }
+
+}
+}
+
+.secc2 div img:hover {
+
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+.historia {
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    background-color:nth($colores, 3);
+    border: 10px solid rgb(9, 60, 60);
+    @extend %padding;
+
+    @media screen and (max-width: 960px) {
+        display: none;
+    }
+
+    .videocosecha {
+
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+
+    .segundodiv p {
+
+        font-size: 2.2rem;
+        color:nth($colores, 2);
+        margin: 10px;
+
+        
+    }
+}
+
+/*ACA TERMINAN LAS SECCIONES DE INDEX.HTML*/
+
+/*EMPIEZA LA SECCION DE ESTILOS.HTML*/
+
+.seccionestilos {
+
+    background-color:nth($colores, 3);
+
+    @media screen and (max-width: 960px) {
+
+        display:  none;
+      
+        }
+
+
+
+    .divdistintoscafes {
+        
+        background-color:nth($colores, 2);
+        border: 5px solid white;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom:20px;
+        height: 550px;
+
+    h3 {
+
+        margin-left: 5px;
+    }    
+    
+    .imgdistintoscafes {
+        
+        border-radius: 5px;
+        height: 350px;
+        width: 100%;
+    }
+   }
+ }
+
+ /*TERMINAN LAS SECCIONES DE ESTILOS.HTML*/
