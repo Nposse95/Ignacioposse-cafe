@@ -15,9 +15,7 @@ header {
     font-size: 3rem;
     color: wheat;
     margin-left: 0px;
-    margin-top: 0px;
-    display: flex;
-    justify-content: center; }
+    margin-top: 0px; }
   header nav ul {
     padding: 3rem;
     display: flex;
@@ -173,17 +171,12 @@ header, .secc2, .historia, footer {
 /*ACA EMPIEZA EL MAIN DE ESTILOS.HTML*/
 .mainestilos {
   background-color: wheat; }
-  .mainestilos .divtitulo {
+  .mainestilos h2 {
+    padding: 60px;
     background-color: rgba(0, 0, 0, 0.876);
-    padding: 60px; }
-    .mainestilos .divtitulo h2 {
-      margin-left: 140px;
-      color: wheat;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      font-size: 4rem;
-      font-style: italic; }
+    color: wheat;
+    font-size: 4rem;
+    font-style: italic; }
   .mainestilos .redes {
     padding: 50px;
     display: flex;
@@ -239,7 +232,6 @@ header, .secc2, .historia, footer {
     padding: 60px;
     background-color: rgba(0, 0, 0, 0.876); }
     .mainhistoria .divtitulo h2 {
-      margin-left: 140px;
       color: wheat;
       display: flex;
       justify-content: flex-start;

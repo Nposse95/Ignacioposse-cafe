@@ -18,13 +18,12 @@ header {
         color:nth($colores, 2);
         margin-left:0px;
         margin-top: 0px;
-        display: flex;
-        justify-content: center;
+     
         
     }
     nav ul {
 
-        @include horizontal (3rem, flex, space-around)
+        @include horizontal (3rem, flex, space-around);
         font-weight: bold;
     
     

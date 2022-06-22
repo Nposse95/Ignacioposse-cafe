@@ -8,22 +8,16 @@
 
     background-color:nth($colores, 2);
 
-    .divtitulo {
-
-        background-color:nth($colores, 1);
-        padding: 60px;
-
     h2 {
 
-        margin-left: 140px;
+        padding:60px;
+        background-color:nth($colores , 1) ;
         color:wheat;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
         font-size: 4rem;
         font-style: italic;
-       }
-      }
+
+       
+    }
 
     .redes {
 
@@ -148,7 +142,7 @@
 
     h2 {
 
-    margin-left: 140px;    
+      
     color: wheat;
     display: flex;
     justify-content: flex-start;

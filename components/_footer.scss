@@ -4,7 +4,7 @@
 
 footer {
 
-     @include fondodiv (wheat, 100%, 300px)
+     @include fondodiv (wheat, 100%, 300px);
      @extend %padding;
 
   
