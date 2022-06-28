@@ -1,4 +1,4 @@
-header, .secc2 div, .historia, footer {
+header, .historia, footer {
   padding-top: 50px;
   padding-bottom: 50px; }
 
@@ -10,7 +10,7 @@ header, .secc2 div, .historia, footer {
   font-style: italic;
   text-align: center; }
 
-header, .secc2 div, .historia, footer {
+header, .historia, footer {
   padding-top: 50px;
   padding-bottom: 50px; }
 
@@ -55,7 +55,7 @@ header {
   background-color: rgba(165, 146, 39, 0.725);
   border-radius: 40px; }
 
-header, .secc2 div, .historia, footer {
+header, .historia, footer {
   padding-top: 50px;
   padding-bottom: 50px; }
 
@@ -110,7 +110,9 @@ header, .secc2 div, .historia, footer {
   background-color: wheat; }
   .secc2 div {
     box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.8);
-    border-radius: 5px; }
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
     @media screen and (max-width: 992px) {
       .secc2 div {
         margin-bottom: 5px; } }
@@ -165,7 +167,7 @@ header, .secc2 div, .historia, footer {
       object-fit: cover; }
 
 /*TERMINAN LAS SECCIONES DE ESTILOS.HTML*/
-header, .secc2 div, .historia, footer {
+header, .historia, footer {
   padding-top: 50px;
   padding-bottom: 50px; }
 
@@ -196,7 +198,7 @@ div ul li {
   list-style: none;
   line-height: 2.5; }
 
-header, .secc2 div, .historia, footer {
+header, .historia, footer {
   padding-top: 50px;
   padding-bottom: 50px; }
 
