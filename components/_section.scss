@@ -131,12 +131,6 @@
 
     background-color:nth($colores, 3);
 
-    @media screen and (max-width: 960px) {
-
-        display:  none;
-      
-        }
-
 
 
     .divdistintoscafes {
@@ -158,6 +152,7 @@
         border-radius: 5px;
         height: 350px;
         width: 100%;
+        object-fit: cover;
     }
    }
  }
