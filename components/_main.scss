@@ -10,11 +10,13 @@
 
     h2 {
 
-        padding:60px;
-        background-color:nth($colores , 1) ;
-        color:wheat;
-        font-size: 4rem;
-        font-style: italic;
+        @extend %encabezadosh2;
+
+        @media screen and (max-width: 340px) {
+        
+        display: none;   
+
+        }
 
        
     }
@@ -132,26 +134,16 @@
 
     background-color: wheat;
 
-
-   .divtitulo {
-
-
-    padding: 60px;
-    background-color:nth($colores, 1);
-  
-
-
     h2 {
 
-      
-    color: wheat;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 4rem;
-    font-style: italic;
-     }
-   }
+    @extend %encabezadosh2;
+
+    @media screen and (max-width: 340px) {
+        
+    display: none;    
+    }
+
+}
 
    p {
 

@@ -2,9 +2,25 @@ header, .secc2 div, .historia, footer {
   padding-top: 24px;
   padding-bottom: 24px; }
 
+.mainestilos h2, .mainhistoria h2 {
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.876);
+  color: wheat;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center; }
+
 header, .secc2 div, .historia, footer {
   padding-top: 24px;
   padding-bottom: 24px; }
+
+.mainestilos h2, .mainhistoria h2 {
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.876);
+  color: wheat;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center; }
 
 header {
   background: rgba(0, 0, 0, 0.7) url(../imagenes/headercoffee.jpg);
@@ -42,6 +58,14 @@ header {
 header, .secc2 div, .historia, footer {
   padding-top: 24px;
   padding-bottom: 24px; }
+
+.mainestilos h2, .mainhistoria h2 {
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.876);
+  color: wheat;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center; }
 
 /*ACA EMPIEZAN LAS SECCIONES DE INDEX.HTML*/
 .barracarousel {
@@ -146,6 +170,14 @@ header, .secc2 div, .historia, footer {
   padding-top: 24px;
   padding-bottom: 24px; }
 
+.mainestilos h2, .mainhistoria h2 {
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.876);
+  color: wheat;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center; }
+
 footer {
   background-color: wheat;
   width: 100%;
@@ -176,15 +208,20 @@ header, .secc2 div, .historia, footer {
   padding-top: 24px;
   padding-bottom: 24px; }
 
+.mainestilos h2, .mainhistoria h2 {
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.876);
+  color: wheat;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center; }
+
 /*ACA EMPIEZA EL MAIN DE ESTILOS.HTML*/
 .mainestilos {
   background-color: wheat; }
-  .mainestilos h2 {
-    padding: 60px;
-    background-color: rgba(0, 0, 0, 0.876);
-    color: wheat;
-    font-size: 4rem;
-    font-style: italic; }
+  @media screen and (max-width: 340px) {
+    .mainestilos h2 {
+      display: none; } }
   .mainestilos .redes {
     padding: 50px;
     display: flex;
@@ -235,16 +272,9 @@ header, .secc2 div, .historia, footer {
 /*ACA EMPIEZA EL MAIN DE HISTORIA.HTML*/
 .mainhistoria {
   background-color: wheat; }
-  .mainhistoria .divtitulo {
-    padding: 60px;
-    background-color: rgba(0, 0, 0, 0.876); }
-    .mainhistoria .divtitulo h2 {
-      color: wheat;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      font-size: 4rem;
-      font-style: italic; }
+  @media screen and (max-width: 340px) {
+    .mainhistoria h2 {
+      display: none; } }
   .mainhistoria p {
     font-size: 1.5rem;
     margin-top: 40px; }
@@ -277,8 +307,7 @@ header, .secc2 div, .historia, footer {
 
 /*ACA TERMINA EL MAIN DE CONTACTO.HTML*/
 * {
-  margin: 0px;
-  border: 1px solid blue; }
+  margin: 0px; }
 
 body {
   background-image: url(../imagenes/fondomate.jpg); }

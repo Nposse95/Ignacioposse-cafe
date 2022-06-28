@@ -1,7 +1,17 @@
-
+@import '../base/colores';
 
 %padding {
 
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+%encabezadosh2 {
+
+    padding:60px;
+    background-color:nth($colores , 1) ;
+    color:wheat;
+    font-size: 4rem;
+    font-style: italic;
+    text-align: center;
 }
