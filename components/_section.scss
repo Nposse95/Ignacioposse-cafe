@@ -53,7 +53,6 @@
 .secc2 {
     
     background-color:nth($colores, 2);
-    border: 10px solid wheat; 
     
 
     div {
@@ -62,16 +61,10 @@
         border-radius: 5px;
         @extend %padding;
         
-        @media screen and (max-widht: 992px) {
+        @media screen and (max-width: 992px) {
 
         margin-bottom: 5px;
             
-        }
-
-        @media screen and (max-widht: 768px) {
-
-        margin-bottom: 5px;    
-
         }
 
     img {

@@ -107,15 +107,11 @@ header, .secc2 div, .historia, footer {
     align-items: center; }
 
 .secc2 {
-  background-color: wheat;
-  border: 10px solid wheat; }
+  background-color: wheat; }
   .secc2 div {
     box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.8);
     border-radius: 5px; }
-    @media screen and (max-widht: 992px) {
-      .secc2 div {
-        margin-bottom: 5px; } }
-    @media screen and (max-widht: 768px) {
+    @media screen and (max-width: 992px) {
       .secc2 div {
         margin-bottom: 5px; } }
     .secc2 div img {
