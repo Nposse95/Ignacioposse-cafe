@@ -1,6 +1,6 @@
 header, .secc2 div, .historia, footer {
-  padding-top: 24px;
-  padding-bottom: 24px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .mainestilos h2, .mainhistoria h2 {
   padding: 60px;
@@ -11,8 +11,8 @@ header, .secc2 div, .historia, footer {
   text-align: center; }
 
 header, .secc2 div, .historia, footer {
-  padding-top: 24px;
-  padding-bottom: 24px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .mainestilos h2, .mainhistoria h2 {
   padding: 60px;
@@ -56,8 +56,8 @@ header {
   border-radius: 40px; }
 
 header, .secc2 div, .historia, footer {
-  padding-top: 24px;
-  padding-bottom: 24px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .mainestilos h2, .mainhistoria h2 {
   padding: 60px;
@@ -166,8 +166,8 @@ header, .secc2 div, .historia, footer {
 
 /*TERMINAN LAS SECCIONES DE ESTILOS.HTML*/
 header, .secc2 div, .historia, footer {
-  padding-top: 24px;
-  padding-bottom: 24px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .mainestilos h2, .mainhistoria h2 {
   padding: 60px;
@@ -178,14 +178,7 @@ header, .secc2 div, .historia, footer {
   text-align: center; }
 
 footer {
-  background-color: wheat;
-  width: 100%;
-  height: 300px; }
-  @media screen and (max-width: 992px) {
-    footer {
-      background-color: wheat;
-      width: 100%;
-      height: 700px; } }
+  background-color: wheat; }
 
 @media screen and (max-width: 575px) {
   .footerdiv {
@@ -204,8 +197,8 @@ div ul li {
   line-height: 2.5; }
 
 header, .secc2 div, .historia, footer {
-  padding-top: 24px;
-  padding-bottom: 24px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .mainestilos h2, .mainhistoria h2 {
   padding: 60px;

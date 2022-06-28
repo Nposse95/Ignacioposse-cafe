@@ -4,18 +4,15 @@
 
 footer {
 
-     @include fondodiv (wheat, 100%, 300px);
+
      @extend %padding;
 
-     @media screen and (max-width: 992px) {
+     background-color: nth($colores, 2);
 
-     @include fondodiv (wheat, 100%, 700px)
         
     }
-  }
-
   
-    .footerdiv {
+.footerdiv {
 
         @media screen and (max-width: 575px) {
             
