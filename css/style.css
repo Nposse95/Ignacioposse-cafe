@@ -1,10 +1,10 @@
-header, .secc2, .historia, footer {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+header, .secc2 div, .historia, footer {
+  padding-top: 24px;
+  padding-bottom: 24px; }
 
-header, .secc2, .historia, footer {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+header, .secc2 div, .historia, footer {
+  padding-top: 24px;
+  padding-bottom: 24px; }
 
 header {
   background: rgba(0, 0, 0, 0.7) url(../imagenes/headercoffee.jpg);
@@ -14,8 +14,9 @@ header {
   header .cafe {
     font-size: 3rem;
     color: wheat;
-    margin-left: 0px;
-    margin-top: 0px; }
+    display: flex;
+    justify-content: center;
+    width: 100%; }
   header nav ul {
     padding: 3rem;
     display: flex;
@@ -39,9 +40,9 @@ header {
   background-color: rgba(165, 146, 39, 0.725);
   border-radius: 40px; }
 
-header, .secc2, .historia, footer {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+header, .secc2 div, .historia, footer {
+  padding-top: 24px;
+  padding-bottom: 24px; }
 
 /*ACA EMPIEZAN LAS SECCIONES DE INDEX.HTML*/
 .barracarousel {
@@ -84,14 +85,16 @@ header, .secc2, .historia, footer {
 
 .secc2 {
   background-color: wheat;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 0px;
-  border: 20px solid wheat; }
+  border: 10px solid wheat; }
   .secc2 div {
-    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.8); }
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 5px; }
+    @media screen and (max-widht: 992px) {
+      .secc2 div {
+        margin-bottom: 5px; } }
+    @media screen and (max-widht: 768px) {
+      .secc2 div {
+        margin-bottom: 5px; } }
     .secc2 div img {
       height: 100%;
       width: 100%;
@@ -99,8 +102,7 @@ header, .secc2, .historia, footer {
       border-radius: 5px; }
 
 .secc2 div img:hover {
-  transform: scale(1.1);
-  cursor: pointer; }
+  transform: scale(1.1); }
 
 .historia {
   display: grid;
@@ -143,30 +145,29 @@ header, .secc2, .historia, footer {
       width: 100%; }
 
 /*TERMINAN LAS SECCIONES DE ESTILOS.HTML*/
-header, .secc2, .historia, footer {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+header, .secc2 div, .historia, footer {
+  padding-top: 24px;
+  padding-bottom: 24px; }
 
 footer {
   background-color: wheat;
   width: 100%;
   height: 300px; }
-  footer div .footerdiv ul div .link {
+  footer .footerdiv div .link {
     text-decoration: none;
     color: black; }
-  @media screen and (max-width: 960px) {
-    footer .segundodiv {
-      display: none; } }
-  footer .footer-title {
-    font-size: 1.5rem;
-    font-weight: bold; }
-  footer div ul li {
-    list-style: none;
-    line-height: 2.5; }
 
-header, .secc2, .historia, footer {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+div ul li {
+  list-style: none;
+  line-height: 2.5; }
+
+header, .secc2 div, .historia, footer {
+  padding-top: 24px;
+  padding-bottom: 24px; }
 
 /*ACA EMPIEZA EL MAIN DE ESTILOS.HTML*/
 .mainestilos {
@@ -197,9 +198,8 @@ header, .secc2, .historia, footer {
               font-size: 1rem; } }
   .mainestilos .redes li a .iconos:hover {
     background-color: black; }
-  .mainestilos .imagencafe {
-    width: 900px;
-    height: 580px;
+  .mainestilos .container .row div .imagencafe {
+    width: 100%;
     border-radius: 5px; }
   .mainestilos .writtenby li {
     list-style: none;
@@ -259,6 +259,12 @@ header, .secc2, .historia, footer {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 25px;
       line-height: 40px; }
+      @media screen and (max-width: 540px) {
+        .maincontacto .divcontact p {
+          font-size: 15px; } }
+      @media screen and (max-width: 1140px) {
+        .maincontacto .divcontact p {
+          font-size: 20px; } }
     .maincontacto .divcontact .imgnfix {
       margin-top: 27px; }
 
@@ -268,15 +274,3 @@ header, .secc2, .historia, footer {
 
 body {
   background-image: url(../imagenes/fondomate.jpg); }
-
-.arribadeto {
-  padding: 1rem;
-  background-color: wheat;
-  display: flex;
-  justify-content: center;
-  cursor: pointer; }
-
-span {
-  margin-left: 10px;
-  font-size: 1.8rem;
-  font-weight: bold; }

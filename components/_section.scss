@@ -53,19 +53,27 @@
 .secc2 {
     
     background-color:nth($colores, 2);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
-    border: 20px solid wheat; 
-    @extend %padding;
+    border: 10px solid wheat; 
+    
 
     div {
 
-        
         box-shadow: 1px 10px 15px rgba(0,0,0,0.80);
-     
+        border-radius: 5px;
+        @extend %padding;
+        
+        @media screen and (max-widht: 992px) {
+
+        margin-bottom: 5px;
+            
+        }
+
+        @media screen and (max-widht: 768px) {
+
+        margin-bottom: 5px;    
+
+        }
+
     img {
 
         height: 100%;
@@ -80,7 +88,6 @@
 .secc2 div img:hover {
 
     transform: scale(1.1);
-    cursor: pointer;
     
 }
 
